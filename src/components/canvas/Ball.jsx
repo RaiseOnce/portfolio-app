@@ -21,16 +21,14 @@ const Ball = (props) => {
         <icosahedronGeometry args={[1, 1]} />
         <meshStandardMaterial
           color="#fff8eb"
-          polygonOffset
           polygonOffsetFactor={-5}
           flatShading
         />
         <Decal
           position={[0, 0, 1]}
           rotation={[2 * Math.PI, 0, 6.25]}
-          scale={1}
+          floatShading
           map={decal}
-          flatShading
         />
       </mesh>
     </Float>
@@ -39,11 +37,7 @@ const Ball = (props) => {
 
 const BallCanvas = ({ icon }) => {
   return (
-    <Canvas
-      frameloop="demand"
-      dpr={[1, 2]}
-      gl={{ preserveDrawingBuffer: true }}
-    >
+    <Canvas frameLoop="demand" gl={{ preserveDrawingBuffer: true }}>
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls enableZoom={false} />
         <Ball imgUrl={icon} />
