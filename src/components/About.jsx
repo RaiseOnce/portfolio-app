@@ -33,17 +33,16 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <h2 className={styles.sectionHeadText}>Overview</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, impedit
-        veritatis. Fugit reiciendis soluta dolorum esse error debitis corrupti a
-        nam similique assumenda? Tempore necessitatibus aperiam odio
-        praesentium, voluptas rerum.
+        I am frontend developer and I have over 2+ years of commercial web
+        experience. During this time I have built over 30+ websites from simple
+        landing to complex SPA and e-commerce websites.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

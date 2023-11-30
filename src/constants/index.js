@@ -19,9 +19,9 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
+  carhub,
+  reka,
+  hilink,
   threejs,
 } from '../assets'
 
@@ -31,8 +31,8 @@ export const navLinks = [
     title: 'About',
   },
   {
-    id: 'work',
-    title: 'Work',
+    id: 'works',
+    title: 'Works',
   },
   {
     id: 'contact',
@@ -42,15 +42,15 @@ export const navLinks = [
 
 const services = [
   {
-    title: 'Web Developer',
+    title: 'JavaScript Developer',
     icon: web,
   },
   {
-    title: 'React Native Developer',
+    title: 'React Developer',
     icon: mobile,
   },
   {
-    title: 'Backend Developer',
+    title: 'Web Designer',
     icon: backend,
   },
   {
@@ -116,53 +116,23 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'React.js Developer',
-    company_name: 'Starbucks',
-    icon: starbucks,
-    iconBg: '#383E56',
-    date: 'March 2020 - April 2021',
-    points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
-    ],
-  },
-  {
-    title: 'React Native Developer',
-    company_name: 'Tesla',
-    icon: tesla,
-    iconBg: '#E6DEDD',
-    date: 'Jan 2021 - Feb 2022',
-    points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
-    ],
-  },
-  {
     title: 'Web Developer',
-    company_name: 'Shopify',
-    icon: shopify,
+    company_name: 'Cedro',
     iconBg: '#383E56',
-    date: 'Jan 2022 - Jan 2023',
+    date: 'March 2022 - October 2022',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
+      'Developing and maintaining websites using Vanilla.js and BEM methodologies.',
+      'Collaborating with cross-functional teams including designers and other developers.',
       'Participating in code reviews and providing constructive feedback to other developers.',
     ],
   },
   {
-    title: 'Full stack Developer',
-    company_name: 'Meta',
-    icon: meta,
+    title: 'React Developer',
+    company_name: 'Freelance',
     iconBg: '#E6DEDD',
-    date: 'Jan 2023 - Present',
+    date: 'December 2022 - Present',
     points: [
       'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
       'Implementing responsive design and ensuring cross-browser compatibility.',
       'Participating in code reviews and providing constructive feedback to other developers.',
     ],
@@ -198,30 +168,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: 'Car Rent',
+    name: 'Car Showcase',
     description:
-      'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'mongodb',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'tailwind',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: carrent,
-    source_code_link: 'https://github.com/',
-  },
-  {
-    name: 'Job IT',
-    description:
-      'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
+      'Web-based platform that allows users to search, book, and manage car rentals from various providers.',
     tags: [
       {
         name: 'react',
@@ -232,32 +181,53 @@ const projects = [
         color: 'green-text-gradient',
       },
       {
+        name: 'tailwind',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: carhub,
+    source_code_link: 'https://github.com/RaiseOnce/car-showcase',
+  },
+  {
+    name: 'Reka FM',
+    description:
+      'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
+    tags: [
+      {
+        name: 'javascript',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'bem',
+        color: 'green-text-gradient',
+      },
+      {
         name: 'scss',
         color: 'pink-text-gradient',
       },
     ],
-    image: jobit,
+    image: reka,
     source_code_link: 'https://github.com/',
   },
   {
-    name: 'Trip Guide',
+    name: 'Hilink',
     description:
-      'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
+      'The website of the travel guide application and offers curated recommendations for popular destinations.',
     tags: [
       {
         name: 'nextjs',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'typescript',
         color: 'green-text-gradient',
       },
       {
-        name: 'css',
+        name: 'tailwind',
         color: 'pink-text-gradient',
       },
     ],
-    image: tripguide,
+    image: hilink,
     source_code_link: 'https://github.com/',
   },
 ]

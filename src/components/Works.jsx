@@ -63,7 +63,7 @@ const Works = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>My work</p>
-        <h2 className={styles.sectionHeadText}>Projects.</h2>
+        <h2 className={styles.sectionHeadText}>Projects</h2>
       </motion.div>
 
       <div className="w-full flex">
@@ -71,10 +71,7 @@ const Works = () => {
           variants={fadeIn('', '', 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
-          voluptatibus vitae illo totam cupiditate, quia quam, officiis
-          voluptates praesentium odio eveniet necessitatibus? Ab aliquid fugiat
-          debitis eligendi et eaque magni.
+          I made a lot of sites — yours is next ;)
         </motion.p>
       </div>
 
