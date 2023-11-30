@@ -1,4 +1,4 @@
-import StarsCanvas from './StarsCanvas'
+import StarsCanvas from './Stars'
 import Hero from './Hero'
 import Navbar from './Navbar'
 import About from './About'
