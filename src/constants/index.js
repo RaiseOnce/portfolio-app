@@ -15,10 +15,9 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  paul,
+  daria,
+  kathy,
   carhub,
   reka,
   hilink,
@@ -142,27 +141,27 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      'I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.',
-    name: 'Sara Lee',
+      'Elias did a great job with the layout of the landing page in accordance with our layout.',
+    name: 'Paul P.',
     designation: 'CFO',
-    company: 'Acme Co',
-    image: 'https://randomuser.me/api/portraits/women/4.jpg',
+    company: 'Paramount Web',
+    image: paul,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: 'Chris Brown',
+      'Our team is extremely grateful to Elias for developing and supporting our corporate website.',
+    name: 'Daria M.',
     designation: 'COO',
-    company: 'DEF Corp',
-    image: 'https://randomuser.me/api/portraits/men/5.jpg',
+    company: 'Line Group',
+    image: daria,
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: 'Lisa Wang',
+      'It was a pleasure to work with Elias on our investment project. We look forward to working together in the future.',
+    name: 'Kathy A.',
     designation: 'CTO',
     company: '456 Enterprises',
-    image: 'https://randomuser.me/api/portraits/women/6.jpg',
+    image: kathy,
   },
 ]
 
@@ -207,7 +206,7 @@ const projects = [
       },
     ],
     image: reka,
-    source_code_link: 'https://github.com/',
+    source_code_link: 'https://github.com/eliasjonah/reka',
   },
   {
     name: 'Hilink',
@@ -228,7 +227,7 @@ const projects = [
       },
     ],
     image: hilink,
-    source_code_link: 'https://github.com/',
+    source_code_link: 'https://github.com/RaiseOnce/travel-app',
   },
 ]
 

@@ -21,10 +21,9 @@ import tailwind from './tech/tailwind.png'
 import typescript from './tech/typescript.png'
 import threejs from './tech/threejs.svg'
 
-import meta from './company/meta.png'
-import shopify from './company/shopify.png'
-import starbucks from './company/starbucks.png'
-import tesla from './company/tesla.png'
+import paul from './paul.jpg'
+import daria from './daria.jpg'
+import kathy from './kathy.jpg'
 
 import carhub from './carhub.png'
 import reka from './reka.png'
@@ -52,10 +51,9 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+  paul,
+  daria,
+  kathy,
   carhub,
   reka,
   hilink,
