@@ -186,11 +186,12 @@ const projects = [
     ],
     image: carhub,
     source_code_link: 'https://github.com/RaiseOnce/car-showcase',
+    site_link: 'https://car-showcase-dusky-tau.vercel.app',
   },
   {
     name: 'Reka FM',
     description:
-      'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
+      'Web application that enables users to search for job openings, view estimated salary ranges for positions.',
     tags: [
       {
         name: 'javascript',
@@ -207,6 +208,7 @@ const projects = [
     ],
     image: reka,
     source_code_link: 'https://github.com/eliasjonah/reka',
+    site_link: 'https://eliasjonah.github.io/reka-web',
   },
   {
     name: 'Hilink',
@@ -228,6 +230,7 @@ const projects = [
     ],
     image: hilink,
     source_code_link: 'https://github.com/RaiseOnce/travel-app',
+    site_link: 'https://travel-app-alpha-blue.vercel.app',
   },
 ]
 
