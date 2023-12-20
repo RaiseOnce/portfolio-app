@@ -8,7 +8,7 @@ const Footer = () => {
     <section>
       <div className="flex justify-between items-center flex-col gap-8 md:flex-row">
         <Link
-          to="https://raiseonce.github.io/netcats/"
+          to="/"
           className="flex items-center gap-2"
           onClick={() => {
             setActive('')
