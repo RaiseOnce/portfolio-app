@@ -32,6 +32,8 @@ import carhub from './carhub.png'
 import reka from './reka.png'
 import hilink from './hilink.png'
 
+import hero from './hero.png'
+
 export {
   logo,
   backend,
@@ -63,4 +65,5 @@ export {
   carhub,
   reka,
   hilink,
+  hero,
 }
