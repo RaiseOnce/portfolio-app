@@ -1,8 +1,4 @@
 import logo from './logo.png'
-import backend from './backend.png'
-import creator from './creator.png'
-import mobile from './mobile.png'
-import web from './web.png'
 import github from './github.png'
 import linkSite from './linkSite.svg'
 import telegram from './telegram.svg'
@@ -20,9 +16,10 @@ import mongodb from './tech/mongodb.png'
 import nodejs from './tech/nodejs.png'
 import reactjs from './tech/reactjs.png'
 import redux from './tech/redux.png'
-import tailwind from './tech/tailwind.png'
 import typescript from './tech/typescript.png'
 import threejs from './tech/threejs.svg'
+import sass from './tech/sass.png'
+import next from './tech/next.png'
 
 import paul from './paul.jpg'
 import daria from './daria.jpg'
@@ -36,10 +33,6 @@ import hero from './hero.png'
 
 export {
   logo,
-  backend,
-  creator,
-  mobile,
-  web,
   github,
   linkSite,
   telegram,
@@ -56,7 +49,6 @@ export {
   nodejs,
   reactjs,
   redux,
-  tailwind,
   typescript,
   threejs,
   paul,
@@ -66,4 +58,6 @@ export {
   reka,
   hilink,
   hero,
+  sass,
+  next,
 }

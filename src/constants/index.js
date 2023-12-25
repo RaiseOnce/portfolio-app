@@ -1,15 +1,10 @@
 import {
-  mobile,
-  backend,
-  creator,
-  web,
   javascript,
   typescript,
   html,
   css,
   reactjs,
   redux,
-  tailwind,
   nodejs,
   mongodb,
   git,
@@ -22,6 +17,8 @@ import {
   reka,
   hilink,
   threejs,
+  sass,
+  next,
 } from '../assets'
 
 export const navLinks = [
@@ -41,20 +38,20 @@ export const navLinks = [
 
 const services = [
   {
-    title: 'JavaScript Developer',
-    icon: web,
+    title: 'Next.js',
+    icon: next,
   },
   {
-    title: 'React Developer',
-    icon: mobile,
+    title: 'Typescript',
+    icon: typescript,
   },
   {
-    title: 'Web Designer',
-    icon: backend,
+    title: 'SASS',
+    icon: sass,
   },
   {
-    title: 'Content Creator',
-    icon: creator,
+    title: 'MongoDB',
+    icon: mongodb,
   },
 ]
 
@@ -84,8 +81,8 @@ const technologies = [
     icon: redux,
   },
   {
-    name: 'Tailwind CSS',
-    icon: tailwind,
+    name: 'SASS',
+    icon: sass,
   },
   {
     name: 'Node JS',
